@@ -1,0 +1,68 @@
+
+/* Header */
+
+html {
+  font-family: 'Varela Round', sans-serif;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+nav.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto 0;
+}
+
+ul li {
+  display: inline;
+  padding: 0 16px;
+}
+
+.logo {
+  height: 32px;
+  margin-left: 24px;
+  font-size: 22px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header .container {
+  height: 64px;
+}
+
+h3 .special-color {
+  color: lightgray;
+}
+
+/* Banner */
+
+.flex-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-banner {
+  background-color: lightgray;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-banner img {
+  width: 60%;
+  padding: 32px 24px;
+}
