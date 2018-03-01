@@ -3,6 +3,8 @@
 
 html {
   font-family: 'Varela Round', sans-serif;
+  font-size: 16px;
+  color: #404040;
 }
 
 nav div {
@@ -33,36 +35,47 @@ ul li {
 .logo {
   height: 32px;
   margin-left: 24px;
-  font-size: 22px;
+  font-size: 26px;
+
 }
 
 .logo img {
-  height: 50px;
+  height: 55px;
 }
 
 header .container {
-  height: 64px;
+  height: 68px;
 }
 
-h3 .special-color {
+h4 .special-color {
   color: lightgray;
 }
 
 /* Banner */
 
-.flex-container {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .main-banner {
+  display: flex;
   background-color: lightgray;
-  width: 100%;
-  margin: 0 auto;
+  height: 42rem;
 }
 
 .main-banner img {
-  width: 60%;
+  display: inline-block;
+  max-width: 60%;
   padding: 32px 24px;
+}
+
+.title {
+  flex-direction: column;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding: 10rem 2rem;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  background-color: dimgray;
+  padding: 12px 60px;
+  color: white;
 }
